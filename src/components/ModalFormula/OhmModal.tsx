@@ -116,7 +116,7 @@ export function OhmModal({ grandeza, isOpen, onClose }: OhmModalProps): React.JS
                         backgroundColor: `${info.color}15`,
                         color: info.color,
                         '--tw-ring-color': info.color,
-                      }
+                      } as React.CSSProperties
                     : {}
                 }
               >
